@@ -1,0 +1,32 @@
+html{
+    font-size: 20px;
+}
+/*jeśli ustawimy sobie sztywną wielkość font-size w container wtedy od tego przelicana jest wielkosc w pozostałych cześciach kodu tak jak poniżej*/
+#container {
+    
+font-size: 30px;
+}
+#container > div {
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+#pixele {
+    width: 400px;
+}
+#em{
+    width: 20em;
+}
+#ex{
+    width: 20ex;
+}
+#rem{
+    width: 20rem;
+}
+#procenty{
+    width: 50%;
+    font-size: 50%;
+}
+#vw{
+    width: 60vw;
+}
